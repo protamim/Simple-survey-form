@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #90c0d7;
+    box-sizing: border-box;
+}
+/* form Title */
+.form_title {
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+}
+/* Styling form (color, padding, shadow) */
+#form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px 30px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+
+/* Styling the form control */
+.form_control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling the form label */
+.form_control label {
+    display: block;
+    margin-bottom: 20px;
+}
+/* Styling Input and textarea */
+input[type=text],
+input[type=email],
+textarea {
+    outline: none;
+    border: 1px solid #adaaaa;
+    border-radius: 2px;
+}
+input[type=text]:focus, 
+input[type=email]:focus, 
+textarea:focus {
+    box-shadow: 1px 1px 8px 4px rgba(49, 248, 165, 0.5);
+    border: 1px solid #12df12;
+}
+
+/* Styling the input, select, and textarea */
+.form_control input,
+.form_control select,
+.form_control textarea {
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling the Radio and checkbox */
+.form_control input[type="radio"],
+.form_control input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+/* Styling Button */ 
+button {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 60px;
+    outline: none;
+    border: none;
+    background: #3fe;
+    font-size: 18px;
+    font-weight: 500;
+    color: #255;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+button:hover {
+    color: #365a5a;
+    background-color: #30f3e3;
+}
